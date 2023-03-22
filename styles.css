@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    color: 0;
+    background: 0;
+    background-color: 0;
+  }
+  
+
+.box {
+  color: aliceblue;
+  text-align: center;
+  font-size: 100px;
+  padding: 10px;
+  border: 1px solid gray;
+  height: 150px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    border: 10px solid gray;
+    flex-direction: row;
+align-items: baseline; 
+
+
+}
+  
+.box1 {
+  background-color: yellow;
+}
+.box2 {
+  background: rgb(3, 60, 109);
+  
+}
+.box3 {
+
+  background: aqua;
+}
+.box4 {
+
+  background: aquamarine;
+}
+
+.box5 {
+    /*you can order these boxes using the box proprety*/
+    background: black;
+}
+
